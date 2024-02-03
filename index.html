@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .movie-btn {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+            height: 100px; /* Altura inicial para acomodar apenas o título */
+            transition: height 1s ease-in-out;
+        }
+        .movie-btn h2 {
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .movie-btn p {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .movie-btn:hover {
+            height: 235px; /* Altura ajustada para mostrar o título e a sinopse */
+        }
+        .movie-btn:hover h2 {
+            opacity: 0.7;
+        }
+        .movie-btn:hover p {
+            opacity: 1;
+        }
+        #harry-potter { background-color: #ffcccb; }
+        #skyfall { background-color: #add8e6; }
+        #gravidade { background-color: #98fb98; }
+        #guardioes-galaxia { background-color: #ffd700; }
+        #missao-impossivel { background-color: #c0c0c0; }
+        #mogli { background-color: #dda0dd; }
+        #thor { background-color: #ffb6c1; }
+        #fallout { background-color: #87ceeb; }
+        #ultimato { background-color: #ffa07a; }
+        #homem-invisivel { background-color: #d3d3d3; }
+        #homem-aranha { background-color: #87cefa; }
+        #top-gun { background-color: #ff69b4; }
+        #acerto-contas { background-color: #a9a9a9; }
+    </style>
+    <title>Filmes disponíveis - CINEMARK</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4 mb-4">Filmes disponíveis - CINEMARK</h1>
+
+        <div id="harry-potter" class="movie-btn">
+            <h2>Harry Potter e as Relíquias da Morte - Parte 2 (2011)</h2>
+            <p>No final épico, a batalha entre as forças do bem e do mal no mundo da bruxaria toma proporções de uma guerra mundial. As apostas nunca foram tão altas e ninguém está a salvo. Mas é Harry que pode ser convocado para fazer um derradeiro sacrifício, à medida que ele se aproxima cada vez mais do confronto final com Lorde Voldemort. Tudo termina aqui.</p>
+        </div>
+
+        <div id="skyfall" class="movie-btn">
+            <h2>007 - Operação Skyfall (2012)</h2>
+            <p>Daniel Craig está de volta ao papel de James Bond, em 007 OPERAÇÃO SKYFALL, a 23ª aventura da mais longa franquia da história do cinema. Em 007 OPERAÇÃO SKYFALL, a volta do passado de M (Judi Dench) coloca à prova a lealdade de Bond. O agente 007 precisa localizar e destruir essa ameaça, não importa o custo pessoal. Quando a mais recente missão de Bond dá terrivelmente errado, agentes de todo o mundo ficam expostos e o MI6 é atacado, o que força M a mudar a agência de lugar. Esses acontecimentos afetam sua autoridade e seu cargo é desafiado por Mallory (Ralph Fiennes), o novo chefe do Comitê de Inteligência e Segurança. Com o MI6 comprometido tanto externa quanto internamente, M só tem um aliado em que pode confiar: Bond. 007 atua nas sombras, auxiliado pela agente de campo Eve (Naomie Harris) – tentando encontrar o misterioso Silva (Javier Bardem), cujos motivos letais e ocultos ainda permanecem desconhecidos.</p>
+        </div>
+
+        <div id="gravidade" class="movie-btn">
+            <h2>Gravidade (2013)</h2>
+            <p>Sandra Bullock e George Clooney estrelam neste suspense de tirar o fôlego escrito, dirigido e produzido por Alfonso Cuarón e passado no infinito e implacável reino do espaço profundo. Bullock interpreta uma brilhante engenheira na sua primeira missão espacial, com Clooney como um astronauta veterano no comando de seu último voo antes de se aposentar. Mas em uma aparente caminhada espacial de rotina, um desastre acontece. A espaçonave é destruída, deixando os dois completamente sozinhos – amarrados apenas um ao outro e indo em direção à escuridão. O silêncio ensurdecedor diz que eles perderam qualquer ligação à Terra... e qualquer chance de resgate. Enquanto o medo vira pânico, cada respiração consome o pouco de oxigênio que lhes resta. Mas o único jeito de voltar para casa pode ser ir mais profundamente à imensidão terrível do espaço.</p>
+        </div>
+
+        <div id="guardioes-galaxia" class="movie-btn">
+            <h2>Guardiões da Galáxia (2014)</h2>
+            <p>Em uma aventura espacial épica cheia de ação, este filme expande o Universo Cinematográfico da Marvel para o cosmos. Quill deve fazer o melhor que pode para reunir seu grupo desorganizado para uma última e desesperada resistência, com o destino da galáxia em jogo.</p>
+        </div>
+
+        <div id="missao-impossivel" class="movie-btn">
+            <h2>Missão: Impossível - Nação Secreta (2015)</h2>
+            <p>Com o IMF desmembrado e Ethan (Tom Cruise) à solta, a equipe agora enfrenta uma rede de agentes especiais habilidosos, o Sindicato. Esses agentes altamente treinados estão implacavelmente criando uma nova ordem mundial através de uma série de ataques terroristas. Ethan se une à equipe e faz parceria com a agente britânica renegada Ilsa Faust (Rebecca Ferguson), que pode ou não ter sido um membro de uma nação secreta. Agora, o grupo encara a missão mais impossível já vista.</p>
+        </div>
+
+        <div id="mogli" class="movie-btn">
+            <h2>Mogli - O Menino Lobo (2016)</h2>
+            <p>"Mogli - O Menino Lobo" chega em uma aventura épica inédita sobre Mogli, um menino órfão que cresce na selva com a ajuda de um bando de lobos, um urso e uma pantera negra.</p>
+        </div>
+
+        <div id="thor" class="movie-btn">
+            <h2>Thor: Ragnarok (2017)</h2>
+            <p>Thor é preso do outro lado do universo, sem o seu martelo poderoso e encontra-se numa corrida contra o tempo para voltar a Asgard e impedir o Ragnarok – a destruição do seu mundo e o fim da civilização Asgardiana.</p>
+        </div>
+
+        <div id="fallout" class="movie-btn">
+            <h2>Missão: Impossível - Efeito Fallout (2018)</h2>
+            <p>Em uma perigosa tarefa para recuperar plutônio roubado, Ethan Hunt (Tom Cruise) opta por salvar sua equipe ao invés de completar a missão, fazendo com que armas nucleares caiam nas mãos de agentes altamente qualificados de uma rede mortal que deseja destruir a civilização. Agora, com o mundo em risco, Ethan e sua equipe da IMF (Simon Pegg, Ving Rhames, Rebecca Ferguson) são forçados, relutantemente, a se aliar a um obstinado agente da CIA (Henry Cavill), enquanto correm contra o tempo para impedir a dissipação nuclear. Nunca houve uma ameaça tão destrutiva, façanhas tão impressionantes ou uma missão tão impossível!</p>
+        </div>
+
+        <div id="ultimato" class="movie-btn">
+            <h2>Vingadores: Ultimato (2019)</h2>
+            <p>No final épico da Saga do Infinito, os Vingadores enfrentam Thanos. Quando eventos devastadores eliminam metade da população mundial e dividem suas fileiras, o resto dos heróis lutam para avançar. Mas eles devem se unir para restaurar a ordem e a harmonia no universo e trazer de volta seus entes queridos.</p>
+        </div>
+
+        <div id="homem-invisivel" class="movie-btn">
+            <h2>O Homem Invisível (2020)</h2>
+            <p>Aprisionada em um relacionamento violento e controlador, com um cientista milionário, Cecilia (Elisabeth Moss) foge na calada da noite e desaparece. Mas quando seu ex-marido abusivo morre repentinamente, Cecilia desconfia de que sua morte seja uma farsa. Quando uma série de coincidências assustadoras ameaça a vida daqueles que ama, Cecilia começa a questionar sua sanidade e ela tenta desesperadamente provar que está sendo caçada por alguém que ninguém consegue ver.</p>
+        </div>
+
+        <div id="homem-aranha" class="movie-btn">
+            <h2>Homem-Aranha: Sem Volta para Casa (2021)</h2>
+            <p>Pela primeira vez na história do Homem-Aranha no cinema, a identidade do nosso simpático herói da vizinhança é revelada, causando conflito entre suas responsabilidades de super-herói e sua vida normal, e colocando em risco as pessoas que ele mais ama. Quando ele pede a ajuda do Doutor Estranho para tornar sua identidade secreta novamente, o feitiço do Doutor abre um rasgo no mundo, soltando os mais poderosos vilões que já combateram o Homem-Aranha... em qualquer universo. Agora, Peter precisará superar o maior desafio jamais enfrentado, que mudará para sempre não apenas seu próprio futuro, como o futuro de todo o Multiverso.</p>
+        </div>
+
+        <div id="top-gun" class="movie-btn">
+            <h2>Top Gun: Maverick (2022)</h2>
+            <p>Depois de mais de trinta anos de serviço como aviador naval de elite, Pete “Maverick” Mitchell (Tom Cruise) está em seu ambiente natural, dando tudo de si como um corajoso piloto de testes. No entanto, Maverick deve enfrentar os fantasmas de seu passado quando retorna ao TOPGUN para treinar um grupo de formandos de elite, ficando cara a cara com o tenente Bradshaw (Miles Teller), filho de seu ex-copiloto "Goose". Rivalidades amargas começam quando os pilotos se preparam para uma missão especializada que exigirá o sacrifício final daqueles escolhidos para pilotá-la.</p>
+        </div>
+
+        <div id="acerto-contas" class="movie-btn">
+            <h2>Missão: Impossível - Acerto de Contas (2023)</h2>
+            <p>Ethan Hunt (Tom Cruise) e sua equipe da IMF embarcam em sua missão mais perigosa até agora: rastrear uma nova arma aterrorizante que ameaça toda a humanidade antes que caia nas mãos erradas. Com o destino do mundo em jogo, uma corrida mortal ao redor do mundo começa. Confrontado por um inimigo misterioso e todo-poderoso, Ethan é forçado a considerar que nada pode importar mais do que sua missão - nem mesmo a vida daqueles com quem ele mais se preocupa.</p>
+        </div>
+
+    </div>
+</body>
+</html>
